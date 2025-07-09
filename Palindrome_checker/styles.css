@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: birder-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 34px;
+  font-family: sans;
+  padding: 20px;
+  margin: 16px;
+  background: linear-gradient(#85754c, #cfb472);
+  border-radius: 15px;
+}
+
+#data-box > h3 {
+  text-align: center;
+  margin-top: 100px;
+  padding: 12px;
+  border: 1px solid #614f24;
+  border-radius: 15px;
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+  background-color: beige;
+  margin: 18px;
+  border-radius: 4px;
+}
+
+#result-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#check-btn {
+  background-color: #c4ad74;
+  padding: 10px 40px 10px 40px;
+  font-size: 16px;
+}
+
+#check-btn:hover {
+  background: linear-gradient(#9c8857, #c4ad74, white);
+}

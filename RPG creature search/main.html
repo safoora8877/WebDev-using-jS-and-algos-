@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="device-width=width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>RPG Creature Search App</title>
+  </head>
+  <body>
+    <header>
+      <h1>RPG Creature Search App</h1>
+      <div class="creature-list-div">
+        <button class="btn" id="creature-list-btn">Show creature list</button>
+        <div class="creature-list">
+          <ul>
+            <li>1. Pyrolynx</li>
+            <li>2. Aquoroc</li>
+            <li>3. Voltadon</li>
+            <li>4. Floraspine</li>
+            <li>5. Cryostag</li>
+            <li>6. Terradon</li>
+            <li>7. Emberapod</li>
+            <li>8. Lunaclaw</li>
+            <li>9. Quillquake</li>
+            <li>10. Mystifin</li>
+            <li>11. Dracilume</li>
+            <li>12. Thornaconda</li>
+            <li>13. Frostbyte</li>
+            <li>14. Graviboa</li>
+            <li>15. Zephyreon</li>
+            <li>16. Blazebore</li>
+            <li>17. Brontogale</li>
+            <li>18. Shadeelisk</li>
+            <li>19. Titanule</li>
+            <li>20. Faegis</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="input-div">
+      <label for="search-input">Enter creature name/Id: </label
+      ><input required id="search-input" type="text" />
+      <button class="btn" id="search-button">Submit</button>
+    </div>
+
+    <div id="creature-details">
+      <p class="subheading">Name:</p>
+      <p id="creature-name" class="stat-block"></p>
+
+      <p class="subheading">ID:</p>
+      <p id="creature-id" class="stat-block"></p>
+
+      <p class="subheading">Weight:</p>
+      <p id="weight" class="stat-block"></p>
+
+      <p class="subheading">Height:</p>
+      <p id="height" class="stat-block"></p>
+
+      <p class="subheading">Types:</p>
+      <p id="types" class="stat-block"></p>
+
+      <p class="subheading">Hp:</p>
+      <p id="hp" class="stat-block"></p>
+
+      <p class="subheading">Attack:</p>
+      <p id="attack" class="stat-block"></p>
+
+      <p class="subheading">Defense:</p>
+      <p id="defense" class="stat-block"></p>
+
+      <p class="subheading">Sp. Attack:</p>
+      <p id="special-attack" class="stat-block"></p>
+
+      <p class="subheading">Sp. Defense:</p>
+      <p id="special-defense" class="stat-block"></p>
+
+      <p class="subheading">Speed:</p>
+      <p id="speed" class="stat-block"></p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

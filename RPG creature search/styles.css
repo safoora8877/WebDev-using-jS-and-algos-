@@ -1,0 +1,98 @@
+:root {
+  --bg-color: #f5c86e;
+  --text-color: #0a0821;
+  --dark-purple: #34154f;
+  --light-purple: #7b4ba6;
+  --stats: #1dccba;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 5px;
+  background: radial-gradient(white, var(--bg-color));
+}
+
+h1 {
+  text-align: center;
+  margin: 25px auto;
+  color: var(--text-color);
+}
+.creature-list-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background: radial-gradient(var(--dark-purple), var(--light-purple));
+  color: white;
+  width: 300px;
+  height: 40px;
+  margin: auto;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: radial-gradient(var(--light-purple), var(--dark-purple));
+}
+
+.btn:active {
+  color: var(--light-purple);
+  background: white;
+}
+ul {
+  list-style-type: none;
+}
+.creature-list {
+  text-align: center;
+  width: 200px;
+  background: white;
+  margin: 15px;
+  padding: 12px;
+  border: 3px solid var(--light-purple);
+  border-radius: 10px;
+  color: var(--dark-purple);
+  font-weight: bold;
+  display: none;
+}
+#input-div {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#search-input {
+  margin: 15px;
+  height: 24px;
+  border: 2px solid var(--light-purple);
+}
+
+.stat-block {
+  width: 300px;
+  background: linen;
+  margin: 15px auto;
+  height: 40px;
+  border: 2px solid var(--light-purple);
+  padding: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.subheading {
+  background: var(--light-purple);
+  margin: 2px;
+  width: 80px;
+  height: 36px;
+  text-align: center;
+  color: white;
+  padding-top: 6px;
+
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-left: 32%;
+}

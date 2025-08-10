@@ -1,0 +1,97 @@
+:root {
+  --white-color: linen;
+  --dark-blue: #1b2347;
+  --light-blue: #1f2547;
+  --phone-color: #06070d;
+  --golden: #edb44e;
+  --dark-yellow: #cc8e21;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: margin-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--dark-blue),
+    var(--dark-blue) 15px,
+    var(--light-blue) 15px,
+    var(--light-blue) 20px
+  );
+}
+
+h1 {
+  color: var(--white-color);
+  text-align: center;
+  margin: 30px 25px 60px 25px;
+}
+
+.phone-design {
+  height: 320px;
+  width: 200px;
+  background-color: var(--phone-color);
+  border: 2px solid var(--white-color);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phone-camera {
+  height: 9px;
+  width: 9px;
+  background: var(--white-color);
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.phone-screen {
+  background-color: var(--white-color);
+  margin: 7px 5px 24px 5px;
+  height: inherit;
+}
+
+label {
+  font-weight: bold;
+  text-align: center;
+  margin-left: 39px;
+}
+
+#user-input {
+  font-size: 14px;
+  border-radius: 7px;
+  text-align: center;
+  margin-left: 5px;
+}
+#clear-btn,
+#check-btn {
+  width: 60px;
+  height: 30px;
+  margin-top: 45px;
+  margin-left: 24px;
+  background: linear-gradient(var(--golden), var(--dark-yellow));
+  border-radius: 4px;
+}
+
+#clear-btn:hover {
+  color: var(--white-color);
+  background: var(--phone-color);
+}
+#check-btn:hover {
+  color: var(--white-color);
+  background: var(--phone-color);
+}
+
+#results-div {
+  margin-top: 12px;
+  font-weight: normal;
+  text-align: center;
+}
